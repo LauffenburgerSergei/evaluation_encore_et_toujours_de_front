@@ -25,6 +25,7 @@ h4,
 h5,
 h6 {
   color: #eb43a3;
+  font-weight: 600;
 }
 body {
   background-image: url(../images/background.png);
@@ -52,13 +53,11 @@ header > nav {
   display: flex;
   justify-content: space-around;
   font-size: 0.8rem;
- 
 }
 header > nav > div {
   padding: 1.3rem 0.5rem;
   margin: 12px;
   border-radius: 10px;
-  
 }
 header > nav > div > a {
   color: #fff;
@@ -66,7 +65,6 @@ header > nav > div > a {
 
 header > nav > div:hover {
   background-color: #eb43a3;
-  
 }
 /* ################################################################*/
 /* ########################## Main ##############################*/
@@ -94,95 +92,124 @@ h1 {
   border-radius: 10px;
   box-shadow: -1px 1px 18px 2px #58575777;
 }
-.fa-star{
-    color: #eb43a3;
+.fa-star {
+  color: #eb43a3;
 }
-.principe{
-    display: flex;
-    padding: 10px;
+.principe {
+  display: flex;
+  padding: 10px;
 }
-.principe_p{
-    padding: 10px;
-    text-align: justify;
+.principe_p {
+  padding: 10px;
+  text-align: justify;
 }
-.licornes{
-    display: flex;
-    padding: 10px;
+.licornes {
+  display: flex;
+  padding: 10px;
 }
-.image_licornes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.image_licornes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-figure{
-    text-align: center;
-    position: relative;
-    margin:15px;
-    width: 200px;
+figure {
+  text-align: center;
+  position: relative;
+  margin: 15px;
+  width: 200px;
 }
-figcaption{
-    position: absolute;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.801);
-    width: 200px;
-    color: white;
-    height: 25px;
-    padding-top: 10px;
-    
-    
+figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.801);
+  width: 200px;
+  color: white;
+  height: 25px;
+  padding-top: 10px;
 }
 
 img {
   width: 200px;
 }
-.trouver{
-    display: flex;
-    padding: 10px;
+.trouver {
+  display: flex;
+  padding: 10px;
 }
-.iframe-container{
-    display: flex;
-    justify-content: center;    
-    width: 100%;
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 iframe {
   width: auto;
   height: 100%;
   padding: 10px;
   border-radius: 20px;
-  
 }
 
-.contact{
-    padding:10px;
-    line-height:1.5
+.contact {
+  padding: 10px;
+  line-height: 1.5;
 }
 
-.newsletter{
-    padding:10px;
-    line-height:1.5
+.newsletter {
+  padding: 10px;
+  line-height: 1.5;
 }
 
-.formulaire{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-button{
-    margin-top: 10px;
-    width: 60px
+button {
+  margin-top: 10px;
+  width: 60px;
 }
-
 
 /* ################################################################*/
 /* ########################### Footer #############################*/
 /* ################################################################*/
 
-footer{
-    background-color: #c55394;
-    width: 100%;
-   padding:15px 0 15px 0 ;
-    text-align:center;
-    color: white;
-    font-size: 0.8rem;
+footer {
+  background-color: #c55394;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
 }
+
+/*************************************************/
+/****************** Media Querys *****************/
+/*************************************************/
+
+@media screen and (min-width: 576px) {
+  .image_licornes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    margin: 100px;
+    
+  }
+  
+  
+}
+
+@media screen and (min-width: 992px){
+    .trouver_iframe{
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+        margin-right:50px;
+    }
+   
+}
+
+
