@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./assets/CSS/reset.css" />
     <link rel="stylesheet" href="./assets/CSS/tools.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
-    <link rel="stylesheet" href="./assets/images/unicorns/">
+    <link rel="stylesheet" href="./assets/images/unicorns/" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,10 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/0215b92f44.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/CSS/fonts.css" />
     <link rel="icon" type="image/x-icon" href="/assets/images/99_85283.png" />
     <title>MyUnicorn</title>
   </head>
@@ -36,9 +40,9 @@
       <a href="./index.html" class="">
         <p class="logo">MyUnicorn</p>
       </a>
-      <nav class="">
-        <div class="">
-          <a class="" href="#">LE PRINCIPE</a>
+      <nav>
+        <div>
+          <a href="#">LE PRINCIPE</a>
         </div>
         <div class="">
           <a class="" href="#">NOS LICORNES</a>
@@ -48,16 +52,19 @@
         </div>
       </nav>
     </header>
+    <!--------------------------------------->
+    <!---------------- Main ----------------->
+    <!--------------------------------------->
     <main>
-      <div>
+      <div class="bg_arc_en_ciel">
         <h1>Un jour, une licorne</h1>
       </div>
-      <div>
-        <div>
-          <i class="fa-light fa-star"></i>
+      <div class="card">
+        <div class="principe">
+          <i class="fa-regular fa-star"></i>
           <h2>Le principe</h2>
         </div>
-        <p>
+        <p class="principe_p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum
           dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut
           luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut
@@ -76,25 +83,94 @@
           convallis mi eget nisl convallis dictum. Vestibulum a massa lacus.
           Aenean quis enim diam.
         </p>
-        <div>
-          <i class="fa-light fa-star"></i>
+        <div class="licornes">
+          <i class="fa-regular fa-star"></i>
           <h2>Nos Licornes</h2>
         </div>
+        <div class="image_licornes">
+          <figure>
+            <img
+              src="/assets/images/unicorns/photo1.jpg"
+              alt="licorne fond rose"
+            />
+            <figcaption>
+              <p>Lulu confetty</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/unicorns/photo2.jpg"
+              alt="licorne fond rose"
+            />
+            <figcaption>
+              <p>Lapillon magik</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/unicorns/photo3.jpg"
+              alt="licorne fond rose"
+            />
+            <figcaption>
+              <p>El Ninjacorn</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              src="assets/images/unicorns/photo4.jpg"
+              alt="licorne fond rose"
+            />
+            <figcaption>
+              <p>Sweety Candy</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="trouver">
+          <i class="fa-regular fa-star"></i>
+          <h2>Nous trouver</h2>
+        </div>
         <div>
-            <div>
-                <img src="/assets/images/unicorns/photo1.jpg" alt="licorne fond rose" />
+          <div class="iframe-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15098.140708824092!2d47.5262321!3d-18.9076913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c1b3b6f62c45fa2!2sAnalakely%20Market!5e0!3m2!1sfr!2sfr!4v1654597168014!5m2!1sfr!2sfr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div>
+            <div class="contact">
+              <h3>Notre élevage de licornes est situé au :</h3>
+              <p>Analakely Market</p>
+              <p>Arabe Rahezavana, Antananarivo, Madagascar</p>
+              <p>01.22.45.67.90</p>
             </div>
-            <div>
-                <img src="/assets/images/unicorns/photo2.jpg" alt="licorne fond rose" />
+            <div class="newsletter">
+              <h3>Newsletter</h3>
+              <p>Abonnez-vous simplement à notre newsletter mensuelle !</p>
+              <div class="formulaire">
+                <form action="#" method="POST" class="d-flex f-bas-100">
+                  <input
+                    type="text"
+                    name="search"
+                    id="search"
+                    placeholder="votre@email.fr"
+                  />
+                </form>
+                <button type="submit" id="btn_search">
+                  <span>valider</span>
+                </button>
+              </div>
             </div>
-            <div>
-                <img src="/assets/images/unicorns/photo3.jpg" alt="licorne fond rose" />
-            </div>
-            <div>
-                <img src="/assets/images/unicorns/photo4.jpg" alt="licorne fond rose" />
-            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer>
+      <p>2022 Sergei lauffenburger</p>
+    </footer>
   </body>
 </html>
