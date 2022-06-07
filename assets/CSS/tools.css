@@ -31,7 +31,7 @@
 /*###############################################*/
 /*############ font-size & texte ################*/
 /*###############################################*/
-.f-sier-1-1 {
+.f-size-1-1 {
   font-size: 1.1rem;
 }
 .f-size-1-2 {
@@ -69,7 +69,10 @@
 .c-r {
   color: red;
 }
-.c-g{
+.c-rose {
+  background-color: #c55394;
+}
+.c-g {
   background-color: #a79898;
 }
 .bg-h-f {
@@ -105,7 +108,7 @@
 .ali-items-cent {
   align-items: center;
 }
-.ali-items-f-s{
+.ali-items-f-s {
   align-items: flex-start;
 }
 .z-10 {
@@ -144,8 +147,18 @@
 /*#############################################*/
 /*################## height ###################*/
 /*#############################################*/
+.h-auto {
+  height: auto;
+}
+.h-100-100 {
+  height: 100%;
+}
+
 .h-40 {
   height: 40px;
+}
+.h-100{
+  height: 100px;
 }
 .h-200 {
   height: 200px;
@@ -166,6 +179,9 @@
 .pad-5 {
   padding: 5px;
 }
+.pad-10 {
+  padding: 10px;
+}
 .pad-15 {
   padding: 15px;
 }
@@ -181,10 +197,10 @@
 .pad-left-15 {
   padding-left: 15px;
 }
-.pad-bot-10{
+.pad-bot-10 {
   padding-bottom: 10px;
 }
-.pad-top-30{
+.pad-top-30 {
   padding-top: 30px;
 }
 
@@ -193,6 +209,9 @@
 /*#############################################*/
 .mar-righ-20 {
   margin-right: 20px;
+}
+.mar-righ-40 {
+  margin-right: 40px;
 }
 .mar-top-70 {
   margin-top: 70px;

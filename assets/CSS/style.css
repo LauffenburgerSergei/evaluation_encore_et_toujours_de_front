@@ -1,0 +1,188 @@
+/*#################################################################*/
+/*########################### Géneral #############################*/
+/*#################################################################*/
+* {
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: "Courgette", cursive;
+}
+.logo {
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #eb43a3;
+}
+body {
+  background-image: url(../images/background.png);
+}
+i {
+  width: 20px;
+}
+
+/* ################################################################*/
+/* ########################## HEADER ##############################*/
+/* ################################################################*/
+
+header {
+  background-color: #c55394;
+  width: 100%;
+}
+
+.logo {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8rem;
+ 
+}
+header > nav > div {
+  padding: 1.3rem 0.5rem;
+  margin: 12px;
+  border-radius: 10px;
+  
+}
+header > nav > div > a {
+  color: #fff;
+}
+
+header > nav > div:hover {
+  background-color: #eb43a3;
+  
+}
+/* ################################################################*/
+/* ########################## Main ##############################*/
+/* ################################################################*/
+
+main {
+  margin: 20px;
+}
+
+.bg_arc_en_ciel {
+  background-image: url(/assets/images/rainbow.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 105px;
+}
+h1 {
+  padding-top: 35px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: -1px 1px 18px 2px #58575777;
+}
+.fa-star{
+    color: #eb43a3;
+}
+.principe{
+    display: flex;
+    padding: 10px;
+}
+.principe_p{
+    padding: 10px;
+    text-align: justify;
+}
+.licornes{
+    display: flex;
+    padding: 10px;
+}
+.image_licornes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figure{
+    text-align: center;
+    position: relative;
+    margin:15px;
+    width: 200px;
+}
+figcaption{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 200px;
+    color: white;
+    height: 25px;
+    padding-top: 10px;
+    
+    
+}
+
+img {
+  width: 200px;
+}
+.trouver{
+    display: flex;
+    padding: 10px;
+}
+.iframe-container{
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+}
+iframe {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+.contact{
+    padding:10px;
+    line-height:1.5
+}
+
+.newsletter{
+    padding:10px;
+    line-height:1.5
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+    width: 60px
+}
+
+
+/* ################################################################*/
+/* ########################### Footer #############################*/
+/* ################################################################*/
+
+footer{
+    background-color: #c55394;
+    width: 100%;
+   padding:15px 0 15px 0 ;
+    text-align:center;
+    color: white;
+    font-size: 0.8rem;
+}
